@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Cadastrar</h2>
+  <form action="CadastroController" method="post">
+  	<div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="Entre com seu Nome" name="nome">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Entre com seu Email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Entre com sua Senha" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Cadastrar</button>
+  </form>
+</div>
+
+
+
+	
+	
+</body>
+</html>
